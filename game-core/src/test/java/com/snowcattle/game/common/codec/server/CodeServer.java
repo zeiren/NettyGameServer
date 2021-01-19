@@ -1,6 +1,5 @@
 package com.snowcattle.game.common.codec.server;
 
-import com.snowcattle.game.common.socket.server.NetMessageServerChannleInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;
@@ -13,7 +12,7 @@ import io.netty.handler.logging.LoggingHandler;
 /**
  * Created by jiangwenping on 2017/11/13.
  */
-public class CodeServer {
+public final class CodeServer {
     public static  final int Port = 9999;
 
     public static void main(String[] args) {
